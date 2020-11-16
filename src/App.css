@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.square:hover {
+  border: 0px;
+}
+
+.square {
+  border: black 1px solid;
+  background: white;
+  float: left;
+  font-size: 80px;
+  font-weight: lighter;
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.board-row {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  font-size: 2em;
+  margin-bottom: 1em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.board {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.root {
+  display: block;
+  position: relative;
+}
+
+.btn {
+  position: relative;
+  display: inline;
+  margin: 1em;
+  align-content: center;
+}
