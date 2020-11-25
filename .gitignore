@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-# /frontend
 /.pnp
 .pnp.js
 
@@ -11,11 +10,6 @@
 
 # production
 /build
-<<<<<<< HEAD
-=======
-/staticfiles
-# /staticfiles
->>>>>>> b51324d23c88b19456ce9346d168756cbd8ab8c5
 
 # misc
 .DS_Store
@@ -112,10 +106,7 @@ target/
 # IPython
 profile_default/
 ipython_config.py
-<<<<<<< HEAD
 
-=======
->>>>>>> b51324d23c88b19456ce9346d168756cbd8ab8c5
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
 #   intended to run in multiple environments; otherwise, check them in:
