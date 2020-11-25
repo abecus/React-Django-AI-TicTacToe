@@ -2,6 +2,8 @@
 
 Simple tic-tac-toe with react as front end and Django rest API for AI in the backend.
 
+See Working Project [here](https://abecus.github.io/React-Django-AI-TicTacToe/).
+
 ### `npm start`
 
 Runs the app in the development mode.\
