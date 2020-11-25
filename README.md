@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,12 +6,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+=======
+# React-Django-AI-TicTacToe
+
+Simple tic-tac-toe with react as front end and Django rest API for AI in the backend.
+>>>>>>> b51324d23c88b19456ce9346d168756cbd8ab8c5
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+<<<<<<< HEAD
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
@@ -68,3 +75,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+
+## Using
+
+- Clone the repo and go to the directory
+
+- run `npm install && npm run build` to install the required packges and build the project
+
+- run `python manage.py runserver` to run the django server and thats it. open the link shown in terminal and play with the AI.
+>>>>>>> b51324d23c88b19456ce9346d168756cbd8ab8c5

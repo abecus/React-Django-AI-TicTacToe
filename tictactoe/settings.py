@@ -24,7 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "z7g(65vl+rcsf1u=#w-(7_(5ypp(_$2u05o6b9mf8aq=psf%6a"
 
 # SECURITY WARNING: don't run with debug turned on in production!
+<<<<<<< HEAD
 # DEBUG = True
+=======
+DEBUG = True
+>>>>>>> b51324d23c88b19456ce9346d168756cbd8ab8c5
 
 ALLOWED_HOSTS = ["*"]
 
@@ -45,7 +49,10 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
+<<<<<<< HEAD
     "whitenoise.middleware.WhiteNoiseMiddleware",
+=======
+>>>>>>> b51324d23c88b19456ce9346d168756cbd8ab8c5
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -61,8 +68,13 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [
+<<<<<<< HEAD
             # os.path.join(BASE_DIR, "build", "static"),
             # os.path.join(BASE_DIR, "build"),
+=======
+            os.path.join(BASE_DIR, "build", "static"),
+            os.path.join(BASE_DIR, "build"),
+>>>>>>> b51324d23c88b19456ce9346d168756cbd8ab8c5
         ],
         "APP_DIRS": True,
         "OPTIONS": {
@@ -122,7 +134,11 @@ USE_L10N = True
 
 USE_TZ = True
 
+<<<<<<< HEAD
 DISABLE_COLLECTSTATIC = 1
+=======
+
+>>>>>>> b51324d23c88b19456ce9346d168756cbd8ab8c5
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
@@ -144,4 +160,8 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "build"),
 ]
 
+<<<<<<< HEAD
 # django_heroku.settings(locals())
+=======
+django_heroku.settings(locals())
+>>>>>>> b51324d23c88b19456ce9346d168756cbd8ab8c5

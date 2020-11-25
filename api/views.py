@@ -1,7 +1,10 @@
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from . import ai
+<<<<<<< HEAD
 import json
+=======
+>>>>>>> b51324d23c88b19456ce9346d168756cbd8ab8c5
 
 
 @api_view(["GET"])
